@@ -1,0 +1,36 @@
+{
+  "npmScope": "david",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "overview": {
+      "tags": ["scope:app"]
+    },
+    "overview-e2e": {
+      "tags": []
+    },
+    "checkout": {
+      "tags": ["scope:app"]
+    },
+    "checkout-e2e": {
+      "tags": []
+    },
+    "feature-user-widget": {
+      "tags": ["scope:shared:feature"]
+    },
+    "ui-button": {
+      "tags": ["scope:shared:ui"]
+    },
+    "core-bitcoin-miner": {
+      "tags": ["scope:shared:core"]
+    },
+    "data-user-client": {
+      "tags": ["scope:shared:data"]
+    }
+  }
+}

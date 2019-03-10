@@ -1,0 +1,25 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es5",
+    "module": "es2015",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@david/feature/user-widget": ["libs/feature/user-widget/src/index.ts"],
+      "@david/ui/button": ["libs/ui/button/src/index.ts"],
+      "@david/core/bitcoin-miner": ["libs/core/bitcoin-miner/src/index.ts"],
+      "@david/data/user-client": ["libs/data/user-client/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
